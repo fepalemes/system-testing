@@ -100,26 +100,26 @@ Funcionalidade: Processos CRUD - System testing
     Então botão Apagar não será apresentado
 
   @realizarteste
-  Esquema do Cenario: Validação via Scenario Outline. Mensagem de retorno: <mensagem retorno>
+  Esquema do Cenario: Validação via Scenario Outline. Mensagem de retorno: <mensagem_retorno>
     Dado usuário está na home
     E usuário clicar na opção "processos" do menu lateral
     E usuário clica no botão de novo processo
-    E usuário informa no campo "processo_vara" o valor igual a "Curitiba"
-    E usuário informa no campo "processo_numero_processo" o valor igual a "2103"
+    E usuário informa no campo "processo_vara" o valor igual a "<vara>"
+    E usuário informa no campo "processo_numero_processo" o valor igual a "<num_processo>"
     E usuário informa no campo "processo_natureza" o valor igual a "<natureza>"
-    E usuário informa no campo "processo_partes" o valor igual a "Felipe X Victor"
+    E usuário informa no campo "processo_partes" o valor igual a "<partes>"
     E usuário seleciona o valor "Sim" no campo urgência
     E usuário seleciona o valor Sim no campo arbitramento
-    E usuário informa no campo "processo_assistente_social" o valor igual a "Marcos"
+    E usuário informa no campo "processo_assistente_social" o valor igual a "<assistente_social>"
     E usuário informa no campo "processo_data_entrada" o valor igual a "06/02/2021"
     E usuário informa no campo "processo_data_saida" o valor igual a "07/03/2021"
     E usuário informa no campo "processo_data_agendamento" o valor igual a "19/08/2022"
-    E usuário informa no campo "processo_status" o valor igual a "Pendente"
-    E usuário informa no campo "processo_observacao" o valor igual a "OK!"
+    E usuário informa no campo "processo_status" o valor igual a "<status>"
+    E usuário informa no campo "processo_observacao" o valor igual a "<obs>"
 
     Exemplos:
-      | natureza | mensagem retorno        |
-      | Civil    | Salvo com sucesso       |
-      | Criminal | Nao processado          |
+      | natureza  | vara       | status     | assistente_social | partes           | num_processo | obs        | mensagem_retorno  |
+      | Civil     | São Carlos | Finalizado | Marcos            | Felipe X Victor  | 123456789    | scenario 1 | Salvo com sucesso |
+      | Criminal  | Araraquara | Aguardando | Ricardo           | Victor X Felipe  | 987654321    | scenario 2 | Nao processado    |
 
 
