@@ -2,12 +2,12 @@ package pages;
 
 import support.DriverQA;
 
-public class ProcessoEdit {
-    private DriverQA driver;
+public class PostProcessos extends BasePage{
+
     private  String processoCode;
 
-    public ProcessoEdit(DriverQA driverQA) {
-        driver = driverQA;
+    public PostProcessos(DriverQA driverQA) {
+        super(driverQA);
     }
     public void preencherCampo(String campo, String valor) {
         driver.sendKeys(valor, campo);
@@ -25,6 +25,9 @@ public class ProcessoEdit {
         driver.click("processo_arbitramento_s");
     }
     public void setCode(String code){
-        processoCode = code;
+         processoCode = code;
+    }
+    public String getCode(){
+        return processoCode;
     }
 }

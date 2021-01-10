@@ -1,11 +1,10 @@
 package pages;
 import support.DriverQA;
 
-public class ProcessosMostrar {
-    private final DriverQA driver;
+public class MostrarProcessos extends BasePage{
 
-    public ProcessosMostrar(DriverQA driverQA) {
-        driver = driverQA;
+    public MostrarProcessos(DriverQA driverQA) {
+        super(driverQA);
     }
 
     public String recuperarMensagemDeSucesso() {

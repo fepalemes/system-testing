@@ -3,11 +3,11 @@ package pages;
 import org.openqa.selenium.By;
 import support.DriverQA;
 
-public class ProcessosOpcoes {
-    private DriverQA driver;
+public class OpcoesProcessos extends BasePage{
 
-    public ProcessosOpcoes(DriverQA driverQA) {
-        driver = driverQA;
+
+    public OpcoesProcessos(DriverQA driverQA) {
+        super(driverQA);
     }
 
     public void botaoNovoProcesso() {

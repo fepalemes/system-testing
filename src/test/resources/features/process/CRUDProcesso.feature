@@ -100,7 +100,7 @@ Funcionalidade: Processos CRUD - System testing
     Então botão Apagar não será apresentado
 
   @realizarteste
-  Esquema do Cenario: Validação via Scenario Outline. Mensagem de retorno: <mensagem_retorno>
+  Esquema do Cenario: Validação via Scenario Outline.
     Dado usuário está na home
     E usuário clicar na opção "processos" do menu lateral
     E usuário clica no botão de novo processo
@@ -118,8 +118,8 @@ Funcionalidade: Processos CRUD - System testing
     E usuário informa no campo "processo_observacao" o valor igual a "<obs>"
 
     Exemplos:
-      | natureza  | vara       | status     | assistente_social | partes           | num_processo | obs        | mensagem_retorno  |
-      | Civil     | São Carlos | Finalizado | Marcos            | Felipe X Victor  | 123456789    | scenario 1 | Salvo com sucesso |
-      | Criminal  | Araraquara | Aguardando | Ricardo           | Victor X Felipe  | 987654321    | scenario 2 | Nao processado    |
+      | natureza  | vara       | status     | assistente_social | partes           | num_processo | obs        |
+      | Civil     | São Carlos | Finalizado | Marcos            | Felipe X Victor  | 123456789    | scenario 1 |
+      | Criminal  | Araraquara | Aguardando | Ricardo           | Victor X Felipe  | 987654321    | scenario 2 |
 
 

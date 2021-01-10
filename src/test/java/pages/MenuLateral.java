@@ -2,11 +2,11 @@ package pages;
 
 import support.DriverQA;
 
-public class MenuLateral {
-    private DriverQA driver;
+public class MenuLateral extends BasePage{
+
 
     public MenuLateral(DriverQA stepDriver){
-        driver = stepDriver;
+        super(stepDriver);
     }
 
     public void clicarMenuLateral(String vMenu) {

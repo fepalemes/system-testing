@@ -6,7 +6,7 @@ public class PaginaInicial extends BasePage {
 
     private String url = "http://agapito-server.herokuapp.com/";
 
-    public PaginaInicial(DriverQA stepDriver, DriverQA driver){
+    public PaginaInicial(DriverQA stepDriver){
         super (stepDriver);
     }
 
