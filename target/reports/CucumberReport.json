@@ -1,0 +1,1322 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1219515476,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "usuário está na home",
+            "match": {
+              "location": "ProcessosSteps.usuarioEstaNaHome()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 101026395,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "usuário clicar na opção \"processos\" do menu lateral",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioClicarNoMenu(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1425284753,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "usuário clica no botão de novo processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 749212909,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "usuário informa no campo \"processo_vara\" o valor igual a \"Rio de Janeiro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 26
+                },
+                {
+                  "val": "Rio de Janeiro",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 240364019,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "usuário informa no campo \"processo_numero_processo\" o valor igual a \"4392\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 26
+                },
+                {
+                  "val": "4392",
+                  "offset": 69
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 217628198,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usuário informa no campo \"processo_natureza\" o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 26
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 149637739,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usuário informa no campo \"processo_partes\" o valor igual a \"Felipe X Victor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 26
+                },
+                {
+                  "val": "Felipe X Victor",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 190715739,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "usuário seleciona o valor \"Sim\" no campo urgência",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 27
+                }
+              ],
+              "location": "ProcessosSteps.oUsuárioSelecionaNoCampoOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 74167274,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "usuário seleciona o valor Sim no campo arbitramento",
+            "match": {
+              "location": "ProcessosSteps.oUsuárioClicaNoCampoArbitramentoComOValorSim()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 138829658,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "usuário informa no campo \"processo_assistente_social\" o valor igual a \"Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_assistente_social",
+                  "offset": 26
+                },
+                {
+                  "val": "Pedro",
+                  "offset": 71
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 117447918,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usuário informa no campo \"processo_data_entrada\" o valor igual a \"09/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 26
+                },
+                {
+                  "val": "09/01/2021",
+                  "offset": 66
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 105120690,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "usuário informa no campo \"processo_data_saida\" o valor igual a \"30/09/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_saida",
+                  "offset": 26
+                },
+                {
+                  "val": "30/09/2021",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 107061293,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "usuário informa no campo \"processo_data_agendamento\" o valor igual a \"21/03/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_agendamento",
+                  "offset": 26
+                },
+                {
+                  "val": "21/03/2022",
+                  "offset": 70
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 103836754,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "usuário informa no campo \"processo_status\" o valor igual a \"Finalizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 26
+                },
+                {
+                  "val": "Finalizado",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 152288916,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "usuário informa no campo \"processo_observacao\" o valor igual a \"OK!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_observacao",
+                  "offset": 26
+                },
+                {
+                  "val": "OK!",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2675045382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 122,
+        "name": "Validação via Scenario Outline.",
+        "description": "",
+        "id": "processos-crud---system-testing;validação-via-scenario-outline.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 118667835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356549483,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "usuário está na home",
+            "match": {
+              "location": "ProcessosSteps.usuarioEstaNaHome()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 61220954,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "usuário clicar na opção \"processos\" do menu lateral",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioClicarNoMenu(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 544984965,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "usuário clica no botão de novo processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 318905928,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "usuário informa no campo \"processo_vara\" o valor igual a \"São Carlos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 26
+                },
+                {
+                  "val": "São Carlos",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 92461727,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "usuário informa no campo \"processo_numero_processo\" o valor igual a \"123456789\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 26
+                },
+                {
+                  "val": "123456789",
+                  "offset": 69
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 100451771,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "usuário informa no campo \"processo_natureza\" o valor igual a \"Civil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 26
+                },
+                {
+                  "val": "Civil",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 198012298,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "usuário informa no campo \"processo_partes\" o valor igual a \"Felipe X Victor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 26
+                },
+                {
+                  "val": "Felipe X Victor",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 132538562,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "usuário seleciona o valor \"Sim\" no campo urgência",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 27
+                }
+              ],
+              "location": "ProcessosSteps.oUsuárioSelecionaNoCampoOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 71067732,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "usuário seleciona o valor Sim no campo arbitramento",
+            "match": {
+              "location": "ProcessosSteps.oUsuárioClicaNoCampoArbitramentoComOValorSim()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 165360978,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "usuário informa no campo \"processo_assistente_social\" o valor igual a \"Marcos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_assistente_social",
+                  "offset": 26
+                },
+                {
+                  "val": "Marcos",
+                  "offset": 71
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 107908890,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "usuário informa no campo \"processo_data_entrada\" o valor igual a \"06/02/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 26
+                },
+                {
+                  "val": "06/02/2021",
+                  "offset": 66
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 125150074,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "usuário informa no campo \"processo_data_saida\" o valor igual a \"07/03/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_saida",
+                  "offset": 26
+                },
+                {
+                  "val": "07/03/2021",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 145844906,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "usuário informa no campo \"processo_data_agendamento\" o valor igual a \"19/08/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_agendamento",
+                  "offset": 26
+                },
+                {
+                  "val": "19/08/2022",
+                  "offset": 70
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 160606740,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "usuário informa no campo \"processo_status\" o valor igual a \"Finalizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 26
+                },
+                {
+                  "val": "Finalizado",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 142295143,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "usuário informa no campo \"processo_observacao\" o valor igual a \"scenario 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_observacao",
+                  "offset": 26
+                },
+                {
+                  "val": "scenario 1",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 102,
+            "name": "@realizarteste"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1358881210,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "usuário está na home",
+            "match": {
+              "location": "ProcessosSteps.usuarioEstaNaHome()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 151683869,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "usuário clicar na opção \"processos\" do menu lateral",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioClicarNoMenu(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1161702569,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "usuário clica no botão de novo processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 342525099,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "usuário informa no campo \"processo_vara\" o valor igual a \"Rio de Janeiro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 26
+                },
+                {
+                  "val": "Rio de Janeiro",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 90911879,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "usuário informa no campo \"processo_numero_processo\" o valor igual a \"4392\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 26
+                },
+                {
+                  "val": "4392",
+                  "offset": 69
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 111285114,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usuário informa no campo \"processo_natureza\" o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 26
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 115586537,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "usuário informa no campo \"processo_partes\" o valor igual a \"Felipe X Victor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 26
+                },
+                {
+                  "val": "Felipe X Victor",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 130563511,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "usuário seleciona o valor \"Sim\" no campo urgência",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 27
+                }
+              ],
+              "location": "ProcessosSteps.oUsuárioSelecionaNoCampoOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 59621128,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "usuário seleciona o valor Sim no campo arbitramento",
+            "match": {
+              "location": "ProcessosSteps.oUsuárioClicaNoCampoArbitramentoComOValorSim()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 169926553,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "usuário informa no campo \"processo_assistente_social\" o valor igual a \"Pedro\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_assistente_social",
+                  "offset": 26
+                },
+                {
+                  "val": "Pedro",
+                  "offset": 71
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 106371806,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "usuário informa no campo \"processo_data_entrada\" o valor igual a \"09/01/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 26
+                },
+                {
+                  "val": "09/01/2021",
+                  "offset": 66
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 101602756,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "usuário informa no campo \"processo_data_saida\" o valor igual a \"30/09/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_saida",
+                  "offset": 26
+                },
+                {
+                  "val": "30/09/2021",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 101766709,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "usuário informa no campo \"processo_data_agendamento\" o valor igual a \"21/03/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_agendamento",
+                  "offset": 26
+                },
+                {
+                  "val": "21/03/2022",
+                  "offset": 70
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 101234791,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "usuário informa no campo \"processo_status\" o valor igual a \"Finalizado\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 26
+                },
+                {
+                  "val": "Finalizado",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 133747431,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "usuário informa no campo \"processo_observacao\" o valor igual a \"OK!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_observacao",
+                  "offset": 26
+                },
+                {
+                  "val": "OK!",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1760067354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 123,
+        "name": "Validação via Scenario Outline.",
+        "description": "",
+        "id": "processos-crud---system-testing;validação-via-scenario-outline.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 119482160,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 402714722,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "usuário está na home",
+            "match": {
+              "location": "ProcessosSteps.usuarioEstaNaHome()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 58817074,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "usuário clicar na opção \"processos\" do menu lateral",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processos",
+                  "offset": 25
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioClicarNoMenu(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 501164750,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "usuário clica no botão de novo processo",
+            "match": {
+              "location": "ProcessosSteps.oUsuarioClicarNoBotaoNovoProcesso()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 310899279,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "usuário informa no campo \"processo_vara\" o valor igual a \"Araraquara\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_vara",
+                  "offset": 26
+                },
+                {
+                  "val": "Araraquara",
+                  "offset": 58
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 85785556,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "usuário informa no campo \"processo_numero_processo\" o valor igual a \"987654321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_numero_processo",
+                  "offset": 26
+                },
+                {
+                  "val": "987654321",
+                  "offset": 69
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 94010840,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "usuário informa no campo \"processo_natureza\" o valor igual a \"Criminal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_natureza",
+                  "offset": 26
+                },
+                {
+                  "val": "Criminal",
+                  "offset": 62
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 103865249,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "usuário informa no campo \"processo_partes\" o valor igual a \"Victor X Felipe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_partes",
+                  "offset": 26
+                },
+                {
+                  "val": "Victor X Felipe",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 117759251,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "usuário seleciona o valor \"Sim\" no campo urgência",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sim",
+                  "offset": 27
+                }
+              ],
+              "location": "ProcessosSteps.oUsuárioSelecionaNoCampoOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 48583002,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "usuário seleciona o valor Sim no campo arbitramento",
+            "match": {
+              "location": "ProcessosSteps.oUsuárioClicaNoCampoArbitramentoComOValorSim()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 121345623,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "usuário informa no campo \"processo_assistente_social\" o valor igual a \"Ricardo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_assistente_social",
+                  "offset": 26
+                },
+                {
+                  "val": "Ricardo",
+                  "offset": 71
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 99357809,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "usuário informa no campo \"processo_data_entrada\" o valor igual a \"06/02/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_entrada",
+                  "offset": 26
+                },
+                {
+                  "val": "06/02/2021",
+                  "offset": 66
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 105898797,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "usuário informa no campo \"processo_data_saida\" o valor igual a \"07/03/2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_saida",
+                  "offset": 26
+                },
+                {
+                  "val": "07/03/2021",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 96233592,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "usuário informa no campo \"processo_data_agendamento\" o valor igual a \"19/08/2022\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_data_agendamento",
+                  "offset": 26
+                },
+                {
+                  "val": "19/08/2022",
+                  "offset": 70
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 104168827,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "usuário informa no campo \"processo_status\" o valor igual a \"Aguardando\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_status",
+                  "offset": 26
+                },
+                {
+                  "val": "Aguardando",
+                  "offset": 60
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 110217097,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "usuário informa no campo \"processo_observacao\" o valor igual a \"scenario 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "processo_observacao",
+                  "offset": 26
+                },
+                {
+                  "val": "scenario 2",
+                  "offset": 64
+                }
+              ],
+              "location": "ProcessosSteps.oUsuarioDigitarNoCampoOValor(String,String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 102,
+            "name": "@realizarteste"
+          }
+        ]
+      }
+    ],
+    "name": "Processos CRUD - System testing",
+    "description": "",
+    "id": "processos-crud---system-testing",
+    "keyword": "Funcionalidade",
+    "uri": "process/CRUDProcesso.feature"
+  }
+]
